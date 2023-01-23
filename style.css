@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+}
+
+
+html{
+
+    background: linear-gradient(#0046ae, #9198e5);
+
+
+    height: 100%;
+    #0046ae, #9198e5
+}
+
+.music_player{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px gray;
+    font-weight: bolder; 
+   
+}
+body{ 
+    margin-top: 200px;
+    margin-left: 600px;
+    
+    
+}
+.bigpart{
+
+    height: 400px;
+    width: 270px;
+    background-image: linear-gradient( rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
+   border-radius: 20px;
+   box-shadow: 2px 2px 13px 2px  rgb(50, 51, 52);
+   
+}
+
+.bigpart:hover{
+   background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
+   
+   transition: 0.4s;
+    
+    
+}
+
+
+
+.songname{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px gray;
+    margin-top: 5%;
+    font-weight: bolder;
+
+    
+}
+
+.songwriter{
+
+
+    color: #666666;
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 3px gray;
+    font-weight: bolder;
+   
+}
+
+.songwriter:hover{
+
+    cursor: pointer;
+    transition: 0.5s;
+    color: #2e2e2e;
+
+}
+.play{
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50% ;
+    margin-right: 30px;
+
+}
+.back{
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 30px;
+   
+  
+}
+.for{
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50% ;
+ 
+           
+}
+
+.back:hover{
+    border-color: #bebebe;
+}
+.for:hover{
+    border-color: #bebebe;
+}
+.play:hover{
+    border-color: #bebebe;
+       
+}
+
+.image{
+
+    height: 50%;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 15px;
+   
+}
+
+.image:hover{
+    cursor: pointer;
+    box-shadow:2px 2px 13px 3px gray;
+   transition: 0.4s;
+}
+
+
+ul{
+   
+    padding-left: 12.5%;
+    margin-top: 3%;
+
+}
+
+.song-slider{
+    width: 100%;
+    position: relative;
+}
+
+.seek-bar{
+    
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    
+    cursor: pointer;
+}
+
+.seek-bar::-webkit-slider-thumb{
+   
+    width: 1px;
+    height: 20px;
+    
+}
+
+.current-time{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    color: aliceblue;
+    padding-left: 7%;
+    font-weight: bold;
+}
+
+.song-duration{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    color: aliceblue;
+    padding-left: 60%;
+    font-weight: bold;
+}
+    
